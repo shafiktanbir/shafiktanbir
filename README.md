@@ -1,73 +1,193 @@
-### Shafikul Islam - looking for Remote role 
+# Shafikul Islam Tanbir
 
-🔹Building intelligent backend systems with **AI integration** and **agentic automation flows**.
+## Backend Engineer | Cloud Infrastructure Lead | DevOps & Platform Engineering | AI Engineering
 
-**Location:** Dhaka, Bangladesh  
- &nbsp; [LinkedIn](https://www.linkedin.com/in/md-shafik-285a34370/) &nbsp; [GitHub](https://github.com/si-tanbir) &nbsp; [Portfolio](https://shafik-protfolio.vercel.app/) &nbsp; [Gmail](mailto:shafiktanbir@gmail.com)  &nbsp;  
+Building scalable backend systems, cloud infrastructure, Kubernetes platforms, and AI-powered automation.
 
----
+📍 Dhaka, Bangladesh
+🌍 Open to Remote Opportunities
 
-### 🧠 Summary  
-I’m a backend-focused developer with **~3 years of hands-on experience**, passionate about creating scalable and intelligent systems.  
-My current work revolves around **integrating AI models**, **designing agentic flow**, and **building reliable backend** that power automation and smart decision-making.  
-I enjoy **solving complex problems**, **optimizing performance**, and **bridging AI capabilities** with real-world applications to deliver impactful, data-driven solutions.
- 
-
-🔹 Skilled in: Golang ,Node.js, REST APIs, Automation Flows, and Cloud Integration  
-🔹 Interested in: AI Agents, Workflow Orchestration, and System Design  
-🔹 Open to: Remote opportunities in AI Engineering & Backend Development  
-
-
-
-###  Core Professional Skills  
-- **Problem Solving & Critical Thinking**  
-- **Communication & Collaboration**  
-- **Time Management & Task Prioritization**  
-- **Adaptability & Continuous Learning**  
+[LinkedIn](https://www.linkedin.com/in/shafiktanbir/) • [GitHub](https://github.com/shafiktanbir) • [Portfolio](https://shafiktanbir.com) • Email: [shafiktanbir@gmail.com](mailto:shafiktanbir@gmail.com)
 
 ---
 
-## Work Experience
+## About Me
 
-### **Full-Stack Developer (backend-focused)**
-**Digital Gregg**, Remote  
-*Jan 2025 – Sep 2025*
+Backend and Infrastructure Engineer with 4+ years of experience building and operating production systems.
 
-- Developed and maintained full-stack web applications using React.js, Next.js, and Express.js, integrating MongoDB for efficient data management.
-- Built and optimized RESTful APIs with Node.js and Express.js, improving server response times by 15% and ensuring seamless front-end integration.
-- Conducted thorough testing and debugging of  back-end components, enhancing application performance and user satisfaction.
+Currently leading cloud infrastructure, Kubernetes environments, CI/CD pipelines, security initiatives, and platform reliability while developing scalable backend services and automation workflows.
 
-### **Full-Stack Developer Intern (Frontend-Focused)**
-**Tunnel**, Remote  
-*july 2024 – Dec 2024*
-
-- Contributed to full-stack development of client projects, building front-end interfaces with React.js and Tailwind CSS and back-end APIs with Express.js.
-- Designed and implemented MongoDB schemas and queries to support dynamic data retrieval, improving application scalability and performance.
-- Debugged and resolved issues across the stack, enhancing application reliability and user experience.
-
-Freelance Developer | Remote | Jan 2023 – Jul 2024
-- Delivered 15+ client projects, ranging from small business websites to production‐ready e‐commerce platforms..
-- Improved API response times by 30% for a client’s booking system.
-- Implemented authentication (JWT) and caching with Redis, improving performance and security.
+Passionate about distributed systems, cloud architecture, observability, automation, and engineering operational excellence.
 
 ---
 
-## Professional Projects
+## 🛠️ Technical Skills
 
-- **Ktps (Keep the Party Safe)** – Platform to save people from drug overdose [keepthepartysafe.org](https://keepthepartysafe.org)
-  - Built with accessibility-first design using HTML5, CSS3, JavaScript, and a responsive CMS-driven architecture.
-  - Optimized for high availability and performance to handle millions of monthly users in times of crisis.
-  - Integrated multilingual support and geolocation-based service routing to connect users with local resources.
+| Backend Engineering               | Cloud & Infrastructure |
+| --------------------------------- | ---------------------- |
+| 🐹 Golang                         | ☸️ Kubernetes (K3s)    |
+| 🟢 Node.js                        | 🐳 Docker              |
+| ⚡ Express.js                      | 🐧 Linux               |
+| 🔗 REST APIs                      | 🌐 Nginx               |
+| 🔐 Authentication & Authorization | ⚙️ GitHub Actions      |
+| 🧩 Microservices                  | 🚀 CI/CD Pipelines     |
 
-- **RideBustang** – Official Public Transit Website [ridebustang.com](https://ridebustang.com)
-  - Developed Colorado’s intercity bus service website using Next.js, Tailwind CSS, WordPress, and PHP.
-  - Utilized Docker for containerized development, ensuring scalable microservices deployment.
-  - Improved site accessibility and SEO, enhancing user reach and engagement.
+| Databases                | Security                    |
+| ------------------------ | --------------------------- |
+| 🐘 PostgreSQL            | 🛡️ RBAC                    |
+| 🍃 MongoDB               | 🔒 Network Policies         |
+| ⚡ Redis                  | 🔑 Secrets Management       |
+| 📊 Database Optimization | 🐳 Container Security       |
+| 🗄️ Data Modeling        | 🔍 Trivy                    |
+| 🔄 Data Migration        | 🏰 Infrastructure Hardening |
+
+| Operations               | AI & Automation            |
+| ------------------------ | -------------------------- |
+| 📈 Monitoring            | 🤖 AI Model Integration    |
+| 📝 Logging               | 🧠 Agentic Workflows       |
+| 🚨 Incident Response     | ⚙️ Workflow Automation     |
+| 🌍 High Availability     | 🔗 Tool-Enabled AI Systems |
+| 💰 Cost Optimization     | 🚀 LLM Applications        |
+| 🏭 Production Operations | 🔄 AI-Powered Automation   |
 
 ---
 
+## Current Focus
 
-## Language
+* Cloud Infrastructure & Platform Engineering
+* Kubernetes Operations
+* Backend Engineering with Golang & Node.js
+* DevOps Automation & CI/CD
+* Infrastructure Security & Hardening
+* Distributed Systems
+* AI Integrations & Agentic Workflows
+* System Design
 
-- English: Fluent in spoken and written language.
-- Hindi : conversational
+---
+
+# Professional Experience
+
+## Team Lead — Infrastructure & Cloud
+
+**Cansoft Technologies** | Oct 2025 – Present
+
+* Lead cloud infrastructure and Kubernetes (K3s) environments across multiple deployment stages.
+* Designed secure CI/CD pipelines with automated testing, deployment automation, and security scanning.
+* Manage PostgreSQL, MongoDB, Redis, and distributed systems while ensuring reliability and high availability.
+* Implemented Kubernetes RBAC, Network Policies, Secrets Management, and container security controls.
+* Conduct infrastructure security reviews, incident response activities, and operational risk assessments.
+* Improved observability through centralized monitoring, logging, and alerting systems.
+* Drive infrastructure optimization and cloud cost management initiatives.
+
+---
+
+## Backend Developer
+
+**Digital Gregg** | Jan 2025 – Sep 2025
+
+* Designed and maintained secure REST APIs using Node.js, Express.js, MongoDB, and Redis.
+* Improved P95 API response times by 15% through caching strategies and query optimization.
+* Built CI/CD pipelines using GitHub Actions and Docker.
+* Implemented JWT authentication and Role-Based Access Control (RBAC).
+* Contributed to infrastructure improvements and production reliability initiatives.
+
+---
+
+## Full-Stack Developer Intern (Backend-Focused)
+
+**Tunnel** | Jul 2024 – Dec 2024
+
+* Developed backend services using Node.js and Express.js.
+* Worked within microservice-oriented architectures.
+* Optimized database performance and backend services.
+* Containerized applications using Docker.
+* Investigated production issues and strengthened API security.
+
+---
+
+## Freelance Backend Developer
+
+**Remote** | Jan 2023 – Jul 2024
+
+* Delivered 15+ production projects from architecture through deployment.
+* Improved system performance by up to 30% through Redis caching and database optimization.
+* Implemented secure authentication and authorization systems.
+* Managed Docker deployments and cloud infrastructure environments.
+
+---
+
+## Assistant Technical Trainer
+
+**Pc Plus Computer Center** | Feb 2022 – Jul 2023
+
+* Designed backend systems using Django and REST APIs.
+* Containerized applications using Docker.
+* Deployed workloads on AWS and DigitalOcean.
+* Mentored developers on backend development, deployment practices, and system architecture.
+
+---
+
+# Selected Projects
+
+## Keep The Party Safe (KTPS)
+
+https://keepthepartysafe.org
+
+* High-traffic platform supporting overdose prevention and public health initiatives.
+* Optimized accessibility, reliability, and performance.
+* Implemented multilingual experiences and geolocation-based resource routing.
+
+### Technologies
+
+HTML5 • CSS3 • JavaScript • CMS • Accessibility • Performance Optimization
+
+---
+
+## RideBustang
+
+https://ridebustang.com
+
+* Public transportation platform serving Colorado's intercity bus system.
+* Built using Next.js, WordPress, PHP, Docker, and Tailwind CSS.
+* Improved accessibility, SEO, and platform performance.
+
+### Technologies
+
+Next.js • WordPress • PHP • Docker • Tailwind CSS
+
+---
+
+# Areas of Interest
+
+* Backend Engineering
+* Platform Engineering
+* DevOps Engineering
+* Infrastructure Engineering
+* Site Reliability Engineering (SRE)
+* Cloud Architecture
+* Distributed Systems
+* AI Infrastructure
+
+---
+
+# Engineering Principles
+
+* Reliability First
+* Security by Default
+* Automation over Manual Operations
+* Observability-Driven Engineering
+* Infrastructure as Code
+* Continuous Improvement
+* Ownership & Accountability
+* Scalability by Design
+
+---
+
+# Languages
+
+* English — Professional Working Proficiency
+* Hindi — Conversational
+
+---
+
+> Building secure, scalable, and reliable systems that power real-world applications.
