@@ -1,193 +1,79 @@
 # Shafikul Islam Tanbir
+## Fractional Backend & Cloud Infrastructure Architect
 
-## Backend Engineer | Cloud Infrastructure Lead | DevOps & Platform Engineering | AI Engineering
+**Are your APIs struggling under load? Are cloud bills creeping up? Are your deployments too slow and fragile?**
 
-Building scalable backend systems, cloud infrastructure, Kubernetes platforms, and AI-powered automation.
+If your engineering team is fighting infrastructure fires instead of shipping features, you are losing money and time. I fix that. 
 
-📍 Dhaka, Bangladesh
-🌍 Open to Remote Opportunities
+I help scaling SaaS companies and technical founders build high-concurrency backend systems, optimize Kubernetes deployments, and drop cloud infrastructure costs—without sacrificing security or performance.
 
-[LinkedIn](https://www.linkedin.com/in/shafiktanbir/) • [GitHub](https://github.com/shafiktanbir) • [Portfolio](https://shafiktanbir.com) • Email: [shafiktanbir@gmail.com](mailto:shafiktanbir@gmail.com)
+Dhaka, Bangladesh | Open to Remote Consulting & Full-Time Roles
 
----
-
-## About Me
-
-Backend and Infrastructure Engineer with 4+ years of experience building and operating production systems.
-
-Currently leading cloud infrastructure, Kubernetes environments, CI/CD pipelines, security initiatives, and platform reliability while developing scalable backend services and automation workflows.
-
-Passionate about distributed systems, cloud architecture, observability, automation, and engineering operational excellence.
+[**Portfolio & Case Studies**](https://shafiktanbir.com) | [**LinkedIn**](https://www.linkedin.com/in/shafiktanbir/) | [**Book an Architecture Audit**](https://shafiktanbir.com/?tab=book)
 
 ---
 
-## 🛠️ Technical Skills
+## How I Drive Engineering ROI
 
-| Backend Engineering               | Cloud & Infrastructure |
-| --------------------------------- | ---------------------- |
-| 🐹 Golang                         | ☸️ Kubernetes (K3s)    |
-| 🟢 Node.js                        | 🐳 Docker              |
-| ⚡ Express.js                      | 🐧 Linux               |
-| 🔗 REST APIs                      | 🌐 Nginx               |
-| 🔐 Authentication & Authorization | ⚙️ GitHub Actions      |
-| 🧩 Microservices                  | 🚀 CI/CD Pipelines     |
+Most scaling teams hit a wall with API latency, fragile CI/CD pipelines, or exploding cloud costs. I step in to build resilient, automated, and secure infrastructure. 
 
-| Databases                | Security                    |
-| ------------------------ | --------------------------- |
-| 🐘 PostgreSQL            | 🛡️ RBAC                    |
-| 🍃 MongoDB               | 🔒 Network Policies         |
-| ⚡ Redis                  | 🔑 Secrets Management       |
-| 📊 Database Optimization | 🐳 Container Security       |
-| 🗄️ Data Modeling        | 🔍 Trivy                    |
-| 🔄 Data Migration        | 🏰 Infrastructure Hardening |
+### 1. High-Performance Backend Systems
+I architect and optimize REST/gRPC APIs using **Golang** and **Node.js (Express)**, specializing in dropping P95 latency and resolving database bottlenecks in **PostgreSQL** and **MongoDB**.
 
-| Operations               | AI & Automation            |
-| ------------------------ | -------------------------- |
-| 📈 Monitoring            | 🤖 AI Model Integration    |
-| 📝 Logging               | 🧠 Agentic Workflows       |
-| 🚨 Incident Response     | ⚙️ Workflow Automation     |
-| 🌍 High Availability     | 🔗 Tool-Enabled AI Systems |
-| 💰 Cost Optimization     | 🚀 LLM Applications        |
-| 🏭 Production Operations | 🔄 AI-Powered Automation   |
+### 2. Cloud Infrastructure & Platform Engineering
+I design zero-downtime deployment environments using **Kubernetes (K3s)**, **Docker**, and **Nginx**. I focus on high availability, disaster recovery, and infrastructure cost optimization.
+
+### 3. DevOps & CI/CD Automation
+I build secure, automated deployment pipelines using **GitHub Actions**, cutting down release times from hours to minutes while integrating strict container security (Trivy) and automated secrets management.
+
+### 4. Agentic AI & Workflow Automation
+I integrate LLM capabilities and tool-enabled AI systems into production workflows to automate operational overhead and drive engineering efficiency.
 
 ---
 
-## Current Focus
+## The Tech Stack
 
-* Cloud Infrastructure & Platform Engineering
-* Kubernetes Operations
-* Backend Engineering with Golang & Node.js
-* DevOps Automation & CI/CD
-* Infrastructure Security & Hardening
-* Distributed Systems
-* AI Integrations & Agentic Workflows
-* System Design
+* **Core Backend:** Golang, Node.js, Express.js, Microservices Architecture
+* **Infrastructure & Cloud:** Kubernetes (K3s), Docker, Linux, Nginx, AWS/DigitalOcean
+* **Databases:** PostgreSQL, MongoDB, Redis (Caching & Optimization)
+* **DevOps & Security:** GitHub Actions, CI/CD, RBAC, Network Policies, Trivy
+* **Observability:** Centralized Logging, Monitoring, Incident Response (SRE)
 
 ---
 
-# Professional Experience
+## Recent Engineering Wins
 
-## Team Lead — Infrastructure & Cloud
+**Team Lead — Infrastructure & Cloud @ Cansoft Technologies** (Oct 2025 – Present)
+* Lead the deployment of secure Kubernetes (K3s) environments across staging and production.
+* Architected CI/CD pipelines with automated security scanning, drastically reducing manual deployment errors.
+* Implemented strict RBAC and Network Policies to harden infrastructure security.
 
-**Cansoft Technologies** | Oct 2025 – Present
+**Backend Developer @ Digital Gregg** (Jan 2025 – Sep 2025)
+* Improved P95 API response times by **15%** by implementing aggressive Redis caching strategies and MongoDB query optimization.
+* Built automated CI/CD pipelines via GitHub Actions and Docker, accelerating feature delivery.
 
-* Lead cloud infrastructure and Kubernetes (K3s) environments across multiple deployment stages.
-* Designed secure CI/CD pipelines with automated testing, deployment automation, and security scanning.
-* Manage PostgreSQL, MongoDB, Redis, and distributed systems while ensuring reliability and high availability.
-* Implemented Kubernetes RBAC, Network Policies, Secrets Management, and container security controls.
-* Conduct infrastructure security reviews, incident response activities, and operational risk assessments.
-* Improved observability through centralized monitoring, logging, and alerting systems.
-* Drive infrastructure optimization and cloud cost management initiatives.
-
----
-
-## Backend Developer
-
-**Digital Gregg** | Jan 2025 – Sep 2025
-
-* Designed and maintained secure REST APIs using Node.js, Express.js, MongoDB, and Redis.
-* Improved P95 API response times by 15% through caching strategies and query optimization.
-* Built CI/CD pipelines using GitHub Actions and Docker.
-* Implemented JWT authentication and Role-Based Access Control (RBAC).
-* Contributed to infrastructure improvements and production reliability initiatives.
+**Freelance Backend Architect** (Jan 2023 – Jul 2024)
+* Delivered 15+ production-grade projects from architecture design to final deployment.
+* Consistently improved system performance by up to **30%** for clients through database tuning and architectural refactoring.
 
 ---
 
-## Full-Stack Developer Intern (Backend-Focused)
+## Featured Case Studies
 
-**Tunnel** | Jul 2024 – Dec 2024
+**[Keep The Party Safe (KTPS)](https://keepthepartysafe.org)**
+* **The Problem:** A high-traffic public health platform needed to guarantee uptime and fast load times during traffic spikes.
+* **The Solution:** Optimized platform architecture for accessibility, speed, and reliable geolocation-based routing.
 
-* Developed backend services using Node.js and Express.js.
-* Worked within microservice-oriented architectures.
-* Optimized database performance and backend services.
-* Containerized applications using Docker.
-* Investigated production issues and strengthened API security.
-
----
-
-## Freelance Backend Developer
-
-**Remote** | Jan 2023 – Jul 2024
-
-* Delivered 15+ production projects from architecture through deployment.
-* Improved system performance by up to 30% through Redis caching and database optimization.
-* Implemented secure authentication and authorization systems.
-* Managed Docker deployments and cloud infrastructure environments.
+**[RideBustang](https://ridebustang.com)**
+* **The Problem:** Colorado's intercity transit platform required a modern, performant, and SEO-optimized architecture.
+* **The Solution:** Re-architected using Next.js and Docker, significantly boosting SEO rankings and platform reliability.
 
 ---
 
-## Assistant Technical Trainer
+## Let's Talk Architecture
 
-**Pc Plus Computer Center** | Feb 2022 – Jul 2023
+Are your APIs struggling under load? Are AWS bills creeping up? Are your deployments too slow? Let's fix it.
 
-* Designed backend systems using Django and REST APIs.
-* Containerized applications using Docker.
-* Deployed workloads on AWS and DigitalOcean.
-* Mentored developers on backend development, deployment practices, and system architecture.
+**[Book a 15-Minute Technical Teardown](https://shafiktanbir.com/?tab=book)** 
 
----
-
-# Selected Projects
-
-## Keep The Party Safe (KTPS)
-
-https://keepthepartysafe.org
-
-* High-traffic platform supporting overdose prevention and public health initiatives.
-* Optimized accessibility, reliability, and performance.
-* Implemented multilingual experiences and geolocation-based resource routing.
-
-### Technologies
-
-HTML5 • CSS3 • JavaScript • CMS • Accessibility • Performance Optimization
-
----
-
-## RideBustang
-
-https://ridebustang.com
-
-* Public transportation platform serving Colorado's intercity bus system.
-* Built using Next.js, WordPress, PHP, Docker, and Tailwind CSS.
-* Improved accessibility, SEO, and platform performance.
-
-### Technologies
-
-Next.js • WordPress • PHP • Docker • Tailwind CSS
-
----
-
-# Areas of Interest
-
-* Backend Engineering
-* Platform Engineering
-* DevOps Engineering
-* Infrastructure Engineering
-* Site Reliability Engineering (SRE)
-* Cloud Architecture
-* Distributed Systems
-* AI Infrastructure
-
----
-
-# Engineering Principles
-
-* Reliability First
-* Security by Default
-* Automation over Manual Operations
-* Observability-Driven Engineering
-* Infrastructure as Code
-* Continuous Improvement
-* Ownership & Accountability
-* Scalability by Design
-
----
-
-# Languages
-
-* English — Professional Working Proficiency
-* Hindi — Conversational
-
----
-
-> Building secure, scalable, and reliable systems that power real-world applications.
+**[Read my technical deep-dives on my blog](https://shafiktanbir.com/?tab=blog)**
