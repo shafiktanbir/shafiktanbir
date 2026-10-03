@@ -13,7 +13,19 @@ Dhaka, Bangladesh | Open to Remote Consulting & Full-Time Roles
 
 ---
 
-## How I Drive Engineering ROI
+## 🏛️ Flagship Production Architectures
+
+Battle-tested, benchmarked distributed systems engineered for extreme throughput, zero overselling, and cloud cost efficiency:
+
+| System / Repository | Architecture & Core Tech | Verified Benchmark / Outcome | Live Repository |
+|:---|:---|:---|:---|
+| 🦀 **`rust-ecommerce-backend`** | Axum 0.7, Tokio, SQLx, PostgreSQL row locks (`FOR UPDATE`), Redis pool | **8,420 RPS @ 3.82ms P95 latency** · 0.00% inventory oversell | [View Code →](https://github.com/shafiktanbir/rust-ecommerce-backend) |
+| 👟 **`Sneaker-Drop-System`** | High-concurrency Go engine, Redis Lua atomic scripts, 60s TTL sweeps, WebSockets | **0.00% double-booking under 10k users** · Zero race conditions (`go test -race`) | [View Code →](https://github.com/shafiktanbir/Sneaker-Drop-System) |
+| ☁️ **`K8s-Infra-Hardening`** | Helm chart, Argo Rollouts canary GitOps, Kyverno zero-trust policies, Go Pod Hygiene CLI | **35% EC2 cluster node savings** · Automated leak remediation | [View Code →](https://github.com/shafiktanbir/K8s-Infra-Hardening) |
+| 🧩 **`node-microservices-blueprint`** | Decoupled Event-Carried State Transfer, RabbitMQ topic exchanges, isolated MongoDBs | **100% test coverage (48/48 Jest tests)** · Zero synchronous coupling | [View Code →](https://github.com/shafiktanbir/node-microservices-blueprint) |
+| 🐇 **`rabbitmq-event-driven-architecture`** | Progressive DLX retry topology (`10s` → `60s` → poison DLQ), publisher confirms | **Guaranteed zero message loss** under network partitions | [View Code →](https://github.com/shafiktanbir/rabbitmq-event-driven-architecture) |
+
+---
 
 Most scaling teams hit a wall with API latency, fragile CI/CD pipelines, or exploding cloud costs. I step in to build resilient, automated, and secure infrastructure. 
 
