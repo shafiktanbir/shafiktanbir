@@ -1,9 +1,9 @@
 # Shafikul Islam (Shafik Tanbir)
 
-**Backend, Platform & Cloud Infrastructure Engineer** · Node.js · TypeScript · Go · PostgreSQL · Kubernetes  
+**Backend, Platform & Cloud Infrastructure Engineer** · Node.js · TypeScript · Go · PostgreSQL · Kubernetes · HIPAA/PIPEDA  
 Dhaka, Bangladesh (`UTC+6` · Full EU/UK/APAC overlap · Daily US East overlap through `12:00 PM ET` · Deel / Remote.com EOR or Direct B2B)
 
-> I build and operate the backend APIs, multi-tenant databases, and cloud infrastructure behind live commercial platforms — keeping customer apps fast, billing/booking flows race-free, and deployments rollback-safe.
+> I build and operate the backend APIs, multi-tenant databases, and HIPAA/PIPEDA privacy-compliant cloud infrastructure behind live commercial platforms — keeping customer data strictly isolated, billing/booking flows race-free, and deployments rollback-safe.
 
 [**Portfolio & Live Case Studies**](https://shafiktanbir.com) · [**1-Page Resume (PDF)**](https://shafiktanbir.com/resume.pdf) · [**LinkedIn**](https://www.linkedin.com/in/shafiktanbir/) · [**Book Intro Call**](https://shafiktanbir.com/?tab=book)
 
@@ -13,7 +13,7 @@ Dhaka, Bangladesh (`UTC+6` · Full EU/UK/APAC overlap · Daily US East overlap t
 
 | Platform | Plain-English Outcome | Engineering Ownership & Proof |
 | :--- | :--- | :--- |
-| **[emmai.ca](https://emmai.ca)** *(Cansoft Technologies)* | Kept daily clinic booking and multi-payer billing online with zero downtime during clinic onboarding | Multi-tenant SaaS architecture (`*.emmai.ca`), streaming Jane App `TOAST` JSONB migrations (3-tier WAN deduplication, 72h rollbacks), HL7 v3 eClaims state machines, & K3s/ArgoCD GitOps |
+| **[emmai.ca](https://emmai.ca)** *(Cansoft Technologies)* | Kept daily clinic booking and multi-payer billing online with zero downtime and strict patient-record isolation | HIPAA/PIPEDA multi-tenant architecture (`*.emmai.ca`), PostgreSQL Row-Level Security (RLS), FusionAuth SSO, SHA-256 immutable SOAP sealing, HL7 v3 eClaims, streaming Jane App `TOAST` migrations (72h rollbacks), & K3s/ArgoCD GitOps |
 | **[ridebustang.com](https://ridebustang.com)** *(Digital Gregg · Contract)* | Cut real-time bus rider API wait times by **45%** across Colorado's intercity transit network | Engineered REST & GTFS-Realtime / WebSocket vehicle telemetry endpoints; fixed N+1 queries via PostgreSQL composite indexing, Redis caching, & GitHub Actions Docker pipelines |
 
 ---
@@ -50,6 +50,7 @@ External engineering teams at US and European developer-tool companies reviewed,
 ## Core Technical Stack & Certifications
 
 - **Languages & Runtimes:** Node.js, TypeScript, Go (Golang), Python (FastAPI / Django), Rust (Axum / Tokio)
-- **Databases & Caching:** PostgreSQL (`EXPLAIN (ANALYZE, BUFFERS)`, Composite/Partial B-Tree Indexes, `PgBouncer`, `TOAST`), Redis (`Cache-Aside`, Lua `EVALSHA`, Pub/Sub), MongoDB, RabbitMQ
-- **Cloud, Containers & GitOps:** Docker, Kubernetes (`K3s` / `EKS`), Helm, ArgoCD GitOps, Argo Rollouts, Kyverno, Ansible, Ubuntu Server, AWS, GitHub Actions
+- **Databases & Caching:** PostgreSQL (`Row-Level Security (RLS)`, `EXPLAIN (ANALYZE, BUFFERS)`, Composite/Partial B-Tree Indexes, `PgBouncer`, `TOAST`), Redis (`Cache-Aside`, Lua `EVALSHA`, Pub/Sub), MongoDB, RabbitMQ
+- **Security, Privacy & Compliance:** HIPAA & PIPEDA Controls, SOC 2 / GDPR-Ready Multi-Tenant Isolation, SHA-256 Immutable Audit Logs, HL7 v3 eClaims, FusionAuth SSO, OAuth2/JWT (`HttpOnly`), Dynamic RBAC, Kyverno, Kubernetes NetworkPolicies, Trivy, WireGuard
+- **Cloud, Containers & GitOps:** Docker, Kubernetes (`K3s` / `EKS`), Helm, ArgoCD GitOps, Argo Rollouts, Ansible, Ubuntu Server, AWS, GitHub Actions
 - **Verified 2026 Credentials:** Canonical Ubuntu Linux · Docker Foundations · PagerDuty DevOps ([Verify on shafiktanbir.com](https://shafiktanbir.com/?tab=experience))
