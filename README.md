@@ -1,91 +1,55 @@
-# Shafikul Islam Tanbir
-## Fractional Backend & Cloud Infrastructure Architect
+# Shafikul Islam (Shafik Tanbir)
 
-**Are your APIs struggling under load? Are cloud bills creeping up? Are your deployments too slow and fragile?**
+**Backend, Platform & Cloud Infrastructure Engineer** · Node.js · TypeScript · Go · PostgreSQL · Kubernetes  
+Dhaka, Bangladesh (`UTC+6` · Full EU/UK/APAC overlap · Daily US East overlap through `12:00 PM ET` · Deel / Remote.com EOR or Direct B2B)
 
-If your engineering team is fighting infrastructure fires instead of shipping features, you are losing money and time. I fix that. 
+> I build and operate the backend APIs, multi-tenant databases, and cloud infrastructure behind live commercial platforms — keeping customer apps fast, billing/booking flows race-free, and deployments rollback-safe.
 
-I help scaling SaaS companies and technical founders build high-concurrency backend systems, optimize Kubernetes deployments, and drop cloud infrastructure costs—without sacrificing security or performance.
-
-Dhaka, Bangladesh | Open to Remote Consulting & Full-Time Roles
-
-[**Portfolio & Case Studies**](https://shafiktanbir.com) | [**LinkedIn**](https://www.linkedin.com/in/shafiktanbir/) | [**Book an Architecture Audit**](https://shafiktanbir.com/?tab=book)
+[**Portfolio & Live Case Studies**](https://shafiktanbir.com) · [**1-Page Resume (PDF)**](https://shafiktanbir.com/resume.pdf) · [**LinkedIn**](https://www.linkedin.com/in/shafiktanbir/) · [**Book Intro Call**](https://shafiktanbir.com/?tab=book)
 
 ---
 
-## 🏛️ Flagship Production Architectures
+## Live Commercial Systems & Impact
 
-Battle-tested, benchmarked distributed systems engineered for extreme throughput, zero overselling, and cloud cost efficiency:
-
-| System / Repository | Architecture & Core Tech | Verified Benchmark / Outcome | Live Repository |
-|:---|:---|:---|:---|
-| 🦀 **`rust-ecommerce-backend`** | Axum 0.7, Tokio, SQLx, PostgreSQL row locks (`FOR UPDATE`), Redis pool | **8,420 RPS @ 3.82ms P95 latency** · 0.00% inventory oversell | [View Code →](https://github.com/shafiktanbir/rust-ecommerce-backend) |
-| 👟 **`Sneaker-Drop-System`** | High-concurrency Go engine, Redis Lua atomic scripts, 60s TTL sweeps, WebSockets | **0.00% double-booking under 10k users** · Zero race conditions (`go test -race`) | [View Code →](https://github.com/shafiktanbir/Sneaker-Drop-System) |
-| ☁️ **`K8s-Infra-Hardening`** | Helm chart, Argo Rollouts canary GitOps, Kyverno zero-trust policies, Go Pod Hygiene CLI | **35% EC2 cluster node savings** · Automated leak remediation | [View Code →](https://github.com/shafiktanbir/K8s-Infra-Hardening) |
-| 🧩 **`node-microservices-blueprint`** | Decoupled Event-Carried State Transfer, RabbitMQ topic exchanges, isolated MongoDBs | **100% test coverage (48/48 Jest tests)** · Zero synchronous coupling | [View Code →](https://github.com/shafiktanbir/node-microservices-blueprint) |
-| 🐇 **`rabbitmq-event-driven-architecture`** | Progressive DLX retry topology (`10s` → `60s` → poison DLQ), publisher confirms | **Guaranteed zero message loss** under network partitions | [View Code →](https://github.com/shafiktanbir/rabbitmq-event-driven-architecture) |
+| Platform | Plain-English Outcome | Engineering Ownership & Proof |
+| :--- | :--- | :--- |
+| **[emmai.ca](https://emmai.ca)** *(Cansoft Technologies)* | Kept daily clinic booking and multi-payer billing online with zero downtime during clinic onboarding | Multi-tenant SaaS architecture (`*.emmai.ca`), streaming Jane App `TOAST` JSONB migrations (3-tier WAN deduplication, 72h rollbacks), HL7 v3 eClaims state machines, & K3s/ArgoCD GitOps |
+| **[ridebustang.com](https://ridebustang.com)** *(Digital Gregg · Contract)* | Cut real-time bus rider API wait times by **45%** across Colorado's intercity transit network | Engineered REST & GTFS-Realtime / WebSocket vehicle telemetry endpoints; fixed N+1 queries via PostgreSQL composite indexing, Redis caching, & GitHub Actions Docker pipelines |
 
 ---
 
-Most scaling teams hit a wall with API latency, fragile CI/CD pipelines, or exploding cloud costs. I step in to build resilient, automated, and secure infrastructure. 
+## Merged Upstream Open-Source Pull Requests (6 Merged)
 
-### 1. High-Performance Backend Systems
-I architect and optimize REST/gRPC APIs using **Golang** and **Node.js (Express)**, specializing in dropping P95 latency and resolving database bottlenecks in **PostgreSQL** and **MongoDB**.
+External engineering teams at US and European developer-tool companies reviewed, tested, and merged these bug fixes into their production repositories:
 
-### 2. Cloud Infrastructure & Platform Engineering
-I design zero-downtime deployment environments using **Kubernetes (K3s)**, **Docker**, and **Nginx**. I focus on high availability, disaster recovery, and infrastructure cost optimization.
+| Repository | PR | Scope Reviewed & Merged Upstream |
+| :--- | :--- | :--- |
+| `checkly/checkly-cli` | [#1574](https://github.com/checkly/checkly-cli/pull/1574) | Prevented empty inline `-c=` / `--config=` CLI flag from consuming positional arguments (reviewed by `@sorccu`) |
+| `checkly/checkly-cli` | [#1566](https://github.com/checkly/checkly-cli/pull/1566) | Included retry counts for unfinished checks on `--max-failures` reporter exits (reviewed by `@sorccu`) |
+| `restatedev/sdk-typescript` | [#810](https://github.com/restatedev/sdk-typescript/pull/810) | Preserved `RestateError.code` across `RetryableError.from()` & `PauseError.from()` (approved by `@slinkydeveloper`) |
+| `openstatusHQ/openstatus` | [#3003](https://github.com/openstatusHQ/openstatus/pull/3003) | Ordered status page incident reports by latest update in `getLight` + Vitest suite (reviewed by `@mxkaske`) |
+| `openstatusHQ/openstatus` | [#2988](https://github.com/openstatusHQ/openstatus/pull/2988) | Sorted synthetic timing phases chronologically in `mapTimingPhases` + Vitest coverage (reviewed by `@mxkaske`) |
+| `jitsucom/jitsu` | [#1592](https://github.com/jitsucom/jitsu/pull/1592) | Accepted `objectMappings` cleanly in `prepareSource` RETL mirror preflight (approved by `@absorbb`) |
 
-### 3. DevOps & CI/CD Automation
-I build secure, automated deployment pipelines using **GitHub Actions**, cutting down release times from hours to minutes while integrating strict container security (Trivy) and automated secrets management.
-
-### 4. Agentic AI & Workflow Automation
-I integrate LLM capabilities and tool-enabled AI systems into production workflows to automate operational overhead and drive engineering efficiency.
-
----
-
-## The Tech Stack
-
-* **Core Backend:** Golang, Node.js, Express.js, Microservices Architecture
-* **Infrastructure & Cloud:** Kubernetes (K3s), Docker, Linux, Nginx, AWS/DigitalOcean
-* **Databases:** PostgreSQL, MongoDB, Redis (Caching & Optimization)
-* **DevOps & Security:** GitHub Actions, CI/CD, RBAC, Network Policies, Trivy
-* **Observability:** Centralized Logging, Monitoring, Incident Response (SRE)
+*(Also open & CLA-signed in active review: `restatedev/sdk-typescript#814`, `SigNoz/signoz#13255`, `Infisical/infisical#8881`, `calcom/cal.diy#30401`.)*
 
 ---
 
-## Recent Engineering Wins
+## Public Systems & Concurrency Repositories
 
-**Team Lead — Infrastructure & Cloud @ Cansoft Technologies** (Oct 2025 – Present)
-* Lead the deployment of secure Kubernetes (K3s) environments across staging and production.
-* Architected CI/CD pipelines with automated security scanning, drastically reducing manual deployment errors.
-* Implemented strict RBAC and Network Policies to harden infrastructure security.
-
-**Backend Developer @ Digital Gregg** (Jan 2025 – Sep 2025)
-* Improved P95 API response times by **15%** by implementing aggressive Redis caching strategies and MongoDB query optimization.
-* Built automated CI/CD pipelines via GitHub Actions and Docker, accelerating feature delivery.
-
-**Freelance Backend Architect** (Jan 2023 – Jul 2024)
-* Delivered 15+ production-grade projects from architecture design to final deployment.
-* Consistently improved system performance by up to **30%** for clients through database tuning and architectural refactoring.
+| Repository | What It Solves (Plain English) | Technical Architecture & Verified Checks |
+| :--- | :--- | :--- |
+| **[`K8s-Infra-Hardening`](https://github.com/shafiktanbir/K8s-Infra-Hardening)** | Rolls out new releases gradually and blocks misconfigured workloads before downtime | Helm, Argo Rollouts canary + `AnalysisTemplate`, Kyverno policies, Go Pod Hygiene CLI (`go test` + `helm lint` CI green) |
+| **[`Sneaker-Drop-System`](https://github.com/shafiktanbir/Sneaker-Drop-System)** | Prevents two customers from buying the exact same item/slot during flash-sale spikes | Go gateway, atomic Redis Lua (`EVALSHA` 60s TTL), WebSocket fan-out (`go test -race` + 2k-VU k6 suite) |
+| **[`rust-ecommerce-backend`](https://github.com/shafiktanbir/rust-ecommerce-backend)** | Processes high-volume orders and stock updates safely without double-selling | Rust, Axum 0.7, Tokio, SQLx `FOR UPDATE` locking, multi-stage `cargo-chef` Docker (**4,665 RPS / 28.4ms P95** across 307k 4-node Hetzner requests) |
+| **[`rabbitmq-event-driven-architecture`](https://github.com/shafiktanbir/rabbitmq-event-driven-architecture)** | Guarantees background emails/webhooks retry reliably and never drop silently | Node.js/TypeScript, RabbitMQ progressive DLX retries (`10s -> 60s -> DLQ`), publisher confirms, LRU dedup (`26/26` tests) |
+| **[`node-microservices-blueprint`](https://github.com/shafiktanbir/node-microservices-blueprint)** | Keeps independent user, task & notification services isolated during restarts | TypeScript, Node.js, RabbitMQ Event-Carried State Transfer, Zod validation, isolated MongoDBs (`48/48` Jest tests) |
 
 ---
 
-## Featured Case Studies
+## Core Technical Stack & Certifications
 
-**[Keep The Party Safe (KTPS)](https://keepthepartysafe.org)**
-* **The Problem:** A high-traffic public health platform needed to guarantee uptime and fast load times during traffic spikes.
-* **The Solution:** Optimized platform architecture for accessibility, speed, and reliable geolocation-based routing.
-
-**[RideBustang](https://ridebustang.com)**
-* **The Problem:** Colorado's intercity transit platform required a modern, performant, and SEO-optimized architecture.
-* **The Solution:** Re-architected using Next.js and Docker, significantly boosting SEO rankings and platform reliability.
-
----
-
-## Let's Talk Architecture
-
-Are your APIs struggling under load? Are AWS bills creeping up? Are your deployments too slow? Let's fix it.
-
-**[Book a 15-Minute Technical Teardown](https://shafiktanbir.com/?tab=book)** 
-
-**[Read my technical deep-dives on my blog](https://shafiktanbir.com/?tab=blog)**
+- **Languages & Runtimes:** Node.js, TypeScript, Go (Golang), Python (FastAPI / Django), Rust (Axum / Tokio)
+- **Databases & Caching:** PostgreSQL (`EXPLAIN (ANALYZE, BUFFERS)`, Composite/Partial B-Tree Indexes, `PgBouncer`, `TOAST`), Redis (`Cache-Aside`, Lua `EVALSHA`, Pub/Sub), MongoDB, RabbitMQ
+- **Cloud, Containers & GitOps:** Docker, Kubernetes (`K3s` / `EKS`), Helm, ArgoCD GitOps, Argo Rollouts, Kyverno, Ansible, Ubuntu Server, AWS, GitHub Actions
+- **Verified 2026 Credentials:** Canonical Ubuntu Linux · Docker Foundations · PagerDuty DevOps ([Verify on shafiktanbir.com](https://shafiktanbir.com/?tab=experience))
