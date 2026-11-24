@@ -20,7 +20,7 @@ Dhaka, Bangladesh (`UTC+6` · Full EU/UK/APAC overlap · Daily US East overlap t
 
 ## Merged Upstream Open-Source Pull Requests (12 Code PRs · 6 US/EU Teams)
 
-External engineering teams across **TypeScript, Python, and Rust** production SDKs and developer tools reviewed, tested, and merged these bug and security fixes upstream *(plus CNCF documentation PR `kubernetes/website#56635`)*:
+External engineering teams across **TypeScript, Python, and Rust** production SDKs and developer tools reviewed, tested, and merged these bug and security fixes upstream:
 
 | Repository | Stack | PR | Scope Reviewed & Merged Upstream |
 | :--- | :--- | :--- | :--- |
@@ -37,7 +37,7 @@ External engineering teams across **TypeScript, Python, and Rust** production SD
 | `openstatusHQ/openstatus` | TypeScript | [#2988](https://github.com/openstatusHQ/openstatus/pull/2988) | Sorted synthetic timing phases chronologically in `mapTimingPhases` + Vitest coverage (reviewed by `@mxkaske`) |
 | `jitsucom/jitsu` | TypeScript | [#1592](https://github.com/jitsucom/jitsu/pull/1592) | Accepted `objectMappings` cleanly in `prepareSource` RETL mirror preflight (approved by `@absorbb`) |
 
-*(Also open & CLA-signed in active review: `grafana/dskit#1181`, `aquasecurity/trivy#11719`, `SigNoz/signoz#13255`, `Infisical/infisical#8881`, `calcom/cal.diy#30401`.)*
+*(Plus 67 open Cloud & Go PRs in active review across `grafana/dskit#1181`, `ClickHouse/ch-go#1245`, `temporalio/sdk-go#2923`, `livekit/sip#1004`, `netbirdio/kubernetes-operator#540`, `tailscale/tailscale#22593`, `aquasecurity/trivy#11719`, and `SigNoz/signoz#13255`.)*
 
 ---
 
